@@ -47,7 +47,7 @@ Voici un extrait des premières mesures de sécurité (Niveau Minimal & Intermé
 3. Avant toute modification d'un fichier système (/etc/sysctl.conf, /etc/ssh/sshd_config, etc.), créez systématiquement une copie de sauvegarde : cp fichier fichier.bak. Cela vous permettra de restaurer la configuration d'origine en cas de problème.
 4. Le durcissement d'un système est un processus continu. Une mise à jour système ou l'installation d'un nouveau service peut écraser certaines configurations. Il est recommandé de re-vérifier cette matrice après chaque changement majeur sur le serveur.
 5. Pour les parcs informatiques importants, il est vivement conseillé d'utiliser des outils de gestion de configuration comme Ansible, Salt ou Puppet pour déployer ces mesures de manière industrielle et reproductible.
-6. 	Ce document est une synthèse opérationnelle basée sur le guide officiel de l'ANSSI : 'Recommandations de configuration d'un système GNU/Linux'. Pour approfondir les concepts théoriques, la lecture du guide complet est vivement recommandée.
+6. Ce document est une synthèse opérationnelle basée sur le guide officiel de l'ANSSI : 'Recommandations de configuration d'un système GNU/Linux'. Pour approfondir les concepts théoriques, la lecture du guide complet est vivement recommandée.
 
 ---
 
