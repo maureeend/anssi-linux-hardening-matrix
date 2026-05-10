@@ -1,6 +1,6 @@
 # Matrice de Durcissement GNU/Linux (Standard ANSSI)
 
-Bienvenue sur le dépôt de la **Matrice interactive de durcissement Linux**. Il simplifie l'application des recommandations de sécurité de l'ANSSI.
+Bienvenue sur le dépôt de la **Matrice de durcissement Linux Standart ANSSI**. Il simplifie l'application des recommandations de sécurité de l'ANSSI.
 Ce projet transforme le guide de 80+ pages de l'ANSSI en une checklist pour les administrateurs système et RSSI.
 
 ---
