@@ -42,11 +42,9 @@ Voici un extrait des premières mesures de sécurité (Niveau Minimal & Intermé
 
 ## Informations Importantes et Avertissements 
 
-1. Les configurations des règles de niveau MIRE partagées dans le guide de l'ANSSI ne se trouvent pas dans les annexes techniques. Il est important pour les règles de niveau MIRE de lire attentivement le guide.
 2. L'application des mesures de durcissement (notamment sur le noyau et les droits sudo) peut rendre certains systèmes instables ou bloquer des services légitimes. Testez impérativement chaque mesure sur un environnement de pré-production avant tout déploiement sur un serveur critique. L'auteur décline toute responsabilité en cas de perte de données ou d'interruption de service.
 3. Avant toute modification d'un fichier système (/etc/sysctl.conf, /etc/ssh/sshd_config, etc.), créez systématiquement une copie de sauvegarde : cp fichier fichier.bak. Cela vous permettra de restaurer la configuration d'origine en cas de problème.
 4. Le durcissement d'un système est un processus continu. Une mise à jour système ou l'installation d'un nouveau service peut écraser certaines configurations. Il est recommandé de re-vérifier cette matrice après chaque changement majeur sur le serveur.
-5. Pour les parcs informatiques importants, il est vivement conseillé d'utiliser des outils de gestion de configuration comme Ansible, Salt ou Puppet pour déployer ces mesures de manière industrielle et reproductible.
 6. Ce document est une synthèse opérationnelle basée sur le guide officiel de l'ANSSI : 'Recommandations de configuration d'un système GNU/Linux'. Pour approfondir les concepts théoriques, la lecture du guide complet est vivement recommandée.
 
 ---
