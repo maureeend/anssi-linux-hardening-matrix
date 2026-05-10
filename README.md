@@ -22,13 +22,13 @@ Voici un extrait des premières mesures de sécurité (Niveau Minimal & Intermé
 | **R1** | Support Matériel | Suivre les recommandations de configuration matérielle x86 | MIR |
 | **R2** | BIOS/UEFI | Appliquer les recommandations de la configuration du BIOS/UEFI mentionnées dans la note technique « Recommandations de configuration matérielle de postes clients et serveurs x86 » | MI |
 | **R3** | Secure Boot | Activer le démarrage sécurisé UEFI pour protéger des rootkits | MI |
-| **R8** | Configuration de la mémoire | Paramétrer les options de protection mémoire (PTI, Page Poison, etc.) | MI | Voir Annexes_Techniques
+| **R8** | Configuration de la mémoire | Paramétrer les options de protection mémoire (PTI, Page Poison, etc.) | MI | Voir Annexes_Techniques |
 | **R11** | Configuration des processus | Activer et configurer le LSM Yama: charger le module de sécurité Yama lors du démarrage, par exemple en passant la directive security=yama au noyau et affecter à l’option de  configuration du noyau kernel.yama.ptrace_scope une valeur au moins égale à 1. | MI |
-| **R13** | Configuration du réseau | Désactiver le support d'IPv6 si non utilisé | MI | Quand IPv6 n’est pas utilisé !! Voir liste conf dans le guide. À défaut, le plan IPv6 doit, tout comme le plan IPv4, être sécurisé
-| **R21** | Configuration statique: Configuration indépendante de la cible matérielle | Paramétrer les options de compilation pour les plugins du compilateur | MIRE | Configuration avancée (30+ paramètres)
-| **R28** | Partitions | Partitionnement type | MI | Voir Annexes_Techniques
-| **R33** | Comptes d'accès: Comptes administrateur | Assurer l'imputabilité des actions d'administration - utiliser compté dédiés pour chaque admin et utiliser sudo pour tte commande privilégier - identifier user de manière unique sur le systeme et journaliser la création de tt processus avec auditd | MI | Guide "Recommandations relatives à l’administration sécurisée des systèmes d’information" 
-| **R37** | Contrôle d'accès: Modèle traditionnel Unix | Utiliser des fonctionnalités de contrôle d'accès obligatoire MAC. | MI | DAC a pas mal de restrictions. En complément, on peut utiliser MAC Mandatory Access Control
+| **R13** | Configuration du réseau | Désactiver le support d'IPv6 si non utilisé | MI | Quand IPv6 n’est pas utilisé !! Voir liste conf dans le guide. À défaut, le plan IPv6 doit, tout comme le plan IPv4, être sécurisé |
+| **R21** | Configuration statique: Configuration indépendante de la cible matérielle | Paramétrer les options de compilation pour les plugins du compilateur | MIRE | Configuration avancée (30+ paramètres) |
+| **R28** | Partitions | Partitionnement type | MI | Voir Annexes_Techniques |
+| **R33** | Comptes d'accès: Comptes administrateur | Assurer l'imputabilité des actions d'administration - utiliser compté dédiés pour chaque admin et utiliser sudo pour tte commande privilégier - identifier user de manière unique sur le systeme et journaliser la création de tt processus avec auditd | MI | Guide "Recommandations relatives à l’administration sécurisée des systèmes d’information" |
+| **R37** | Contrôle d'accès: Modèle traditionnel Unix | Utiliser des fonctionnalités de contrôle d'accès obligatoire MAC. | MI | DAC a pas mal de restrictions. En complément, on peut utiliser MAC Mandatory Access Control |
 
 ---
 
