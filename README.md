@@ -1,6 +1,3 @@
-# anssi-linux-hardening-matrix
-Matrice d'audit et de durcissement GNU/Linux basée sur les recommandations officielles de l'ANSSI (v1.0 - 2026)
-
 # Matrice de Durcissement GNU/Linux (Standard ANSSI)
 
 Bienvenue sur le dépôt de la **Matrice interactive de durcissement Linux**. Il simplifie l'application des recommandations de sécurité de l'ANSSI.
